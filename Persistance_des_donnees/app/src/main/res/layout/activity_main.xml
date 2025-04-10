@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nom Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom:"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <EditText
+        android:id="@+id/nomEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="glsid"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Email Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="glsid@gmail.com"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"
+        android:inputType="textEmailAddress"/>
+
+    <!-- Buttons Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/enregistrerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENREGISTRER"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:id="@+id/chargerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHARGER"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:id="@+id/effacerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EFFACER"/>
+    </LinearLayout>
+
+</LinearLayout>
