@@ -11,17 +11,7 @@ Faseeh is a minimal language learning application built with Flutter. It simulat
 
 ## Screenshots
 
-### Home Screen
-![Home Screen](Screenshots/1.png)
-*The home screen provides quick access to all features of the application.*
-
-### Media Import
-![Media Import Screen](Screenshots/2.png)
-*Import content from various sources including local files and online media.*
-
-### Video Player with Learning Materials
-![Video Player Screen](Screenshots/3.png)
-*Watch videos with synchronized captions and automatically generated questions.*
+![Home Screen](Screenshots/1.png) ![Media Import Screen](Screenshots/2.png) ![Video Player Screen](Screenshots/3.png)
 
 ## Technical Details
 
