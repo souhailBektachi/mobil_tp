@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Weather App XML</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Enter city name</string>
+    <string name="city_name">City</string>
+    <string name="temperature">Temperature</string>
+    <string name="min_temperature">Min Temperature</string>
+    <string name="max_temperature">Max Temperature</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="error_city_not_found">City not found</string>
+    <string name="error_network">Network error, please try again later</string>
+    <string name="error_parsing">Error parsing weather data</string>
+    <string name="weather_condition_icon">Weather condition icon</string>
+</resources>
